@@ -35,4 +35,3 @@ def sortIt(self, arr):
 
     # Step 3: Sort evens (ascending)
     arr[odd_end:] = sorted(arr[odd_end:])
-        
