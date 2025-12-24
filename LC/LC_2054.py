@@ -43,7 +43,7 @@ class Solution:
             # Base case:
             # - already selected 2 events
             # - or no more events left
-            if selected_count == 2 or current_index >= len(events):
+            if selected_count == 2 or current_index >= len(events):    # selected_count == k if question tells atmost k non-overlapping event
                 return 0
 
             # Return cached result if already computed
